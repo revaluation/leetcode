@@ -1,3 +1,8 @@
+// For naive BST implementation:
+//  - Time Complexity: O(N^2), Space Complexity: O(N)
+// For balanced BST implementation:
+//  - Time Complexity: O(N*logN), Space Complexity: O(N)
+
 public class BstSolution implements ISolution {
     public long countNumOfSwaps(int[] arr) {
         TreeNode bst = null;

@@ -1,3 +1,4 @@
+// Time Complexity: O(N*logN), Space Complexity: O(N)
 public class BITSolution implements ISolution {
 
     @Override

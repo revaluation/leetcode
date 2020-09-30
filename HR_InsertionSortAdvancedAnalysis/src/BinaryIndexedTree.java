@@ -24,10 +24,10 @@ public class BinaryIndexedTree {
     }
 
     public int removeLeastSignificantBit(int x) {
-        return x & (x - 1);
+        return x - (x & (-x));
     }
 
     public int doubleLeastSignificantBit(int x) {
-        return removeLeastSignificantBit(x) + (x ^ (x - 1)) + 1;
+        return x + (x & (-x));
     }
 }

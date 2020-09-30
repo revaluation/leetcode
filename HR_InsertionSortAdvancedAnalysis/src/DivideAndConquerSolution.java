@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// Time Complexity O(N*logN + MAX_VALUE^logN), Space Complexity O(logN + MAX_VALUE)
 public class DivideAndConquerSolution implements ISolution {
     private int size = 0;
     private long swaps;
