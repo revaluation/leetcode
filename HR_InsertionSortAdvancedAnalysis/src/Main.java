@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class Main {
     static long insertionSort(int[] arr) {
-        ISolution solution = new BITSolution();
+        ISolution solution = new MergeSortSolution();
         return solution.countNumOfSwaps(arr);
     }
 
     public static void main(String[] args) throws IOException {
-        String testName = "00";
+        String testName = "01";
         BufferedReader bufferedReader = new BufferedReader(new FileReader("tests/" + testName + ".txt"));
         Scanner scanner = new Scanner(bufferedReader);
 
